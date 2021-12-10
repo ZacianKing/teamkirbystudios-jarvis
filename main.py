@@ -280,4 +280,4 @@ async def support(ctx):
 
 #TOKEN
 keep_alive()
-client.run('XXX')
+client.run('XXX') #XXX sta per TOKEN del vostro bot
