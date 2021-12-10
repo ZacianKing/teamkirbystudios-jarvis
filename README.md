@@ -1,4 +1,4 @@
-Tutorial come far funzionare il bot e durarlo per 24/7 (o quasi...)
+Tutorial: come far funzionare il bot e durarlo per 24/7 (o quasi...)
 
 1. Andare sul sito Replit https://replit.com/
 2. Vedrete un tasto "Create", cliccate il bottone "+" e vi appare un popup.
