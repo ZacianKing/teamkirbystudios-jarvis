@@ -280,4 +280,4 @@ async def support(ctx):
 
 #TOKEN
 keep_alive()
-client.run('ODg0ODUyNzY3NDEwMjMzMzc1.YTehWw.z4VWS-2J3A3n2wo10_K5A7-RTYg')
+client.run('XXX')
