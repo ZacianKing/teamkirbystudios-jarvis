@@ -11,7 +11,7 @@ import json
 #Stato & Prefix
 
 client = commands.Bot(command_prefix="j.")
-status = cycle(['Il mio comando è jj.help!', 'NEWS: Sono un nuovo bot :)'])
+status = cycle(['Il mio comando è j.help!', 'NEWS: Sono un nuovo bot :)'])
 
 client.remove_command("help")
 
@@ -27,7 +27,7 @@ async def change_status():
 #Categorie
 @client.group(invoke_without_command=True)
 async def help(ctx):
-  em = discord.Embed(title = "Help", description = "Usa jj.help <comando> per maggiori informazioni.",color = ctx.author.color)
+  em = discord.Embed(title = "Help", description = "Usa j.help <comando> per maggiori informazioni.",color = ctx.author.color)
 
   em.add_field(name = "Moderation", value = "clear - kick - ban - unban")
 
@@ -245,7 +245,7 @@ async def place(ctx, pos: int):
         else:
             await ctx.send("non è tuo turno ora.")
     else:
-        await ctx.send("Per iniziare una nuova partita, digita jj.tictactoe")
+        await ctx.send("Per iniziare una nuova partita, digita j.tictactoe")
 
 
 def checkWinner(winningConditions, mark):
@@ -272,7 +272,7 @@ async def place_error(ctx, error):
 #Commands
 @client.command()
 async def language(ctx):
-  await ctx.send("Sono sato usato in **Python**, da ZacyKing_#1605")
+  await ctx.send("Sono stato programmato in **Python**")
 
 @client.command()
 async def support(ctx):
