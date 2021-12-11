@@ -9,9 +9,8 @@ import datetime
 import json
 
 #Stato & Prefix
-
 client = commands.Bot(command_prefix="j.")
-status = cycle(['Il mio comando è j.help!', 'NEWS: Sono un nuovo bot :)'])
+status = cycle(['Il mio comando è j.help!', 'Mettimi uno status secondario'])
 
 client.remove_command("help")
 
