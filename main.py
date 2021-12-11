@@ -10,7 +10,7 @@ import json
 
 #Stato & Prefix
 
-client = commands.Bot(command_prefix="jj.")
+client = commands.Bot(command_prefix="j.")
 status = cycle(['Il mio comando è jj.help!', 'NEWS: Sono un nuovo bot :)'])
 
 client.remove_command("help")
@@ -43,7 +43,7 @@ async def language(ctx):
 
   em = discord.Embed(title = "language", description = "Quale programma sono stato usato?")
 
-  em.add_field(name = "**Syntax**", value = "jj..language")
+  em.add_field(name = "**Syntax**", value = "j..language")
 
   await ctx.send(embed = em)
 
@@ -52,7 +52,7 @@ async def support(ctx):
 
    em = discord.Embed(title = "support", description = "Hai trovato bugs? Vuoi un bisogno di aiuto? Hai trovato errori? Questo comando fa per te!")
 
-   em.add_field(name = "**Syntax**", value = "jj.support")
+   em.add_field(name = "**Syntax**", value = "j.support")
 
    await ctx.send(embed = em)
 
@@ -61,7 +61,7 @@ async def clear(ctx):
 
   em = discord.Embed(title = "clear", description = "Elimina messaggi fino a 500 messaggi! (Attenzione! aggiungi un numero extra per il comando che hai eseguito! Se non puoi eseguire questo comando, devi avere il permesso di gestire i messaggi!")
 
-  em.add_field(name = "**Syntax**", value = "jj.clear <amount>")
+  em.add_field(name = "**Syntax**", value = "j.clear <amount>")
 
   await ctx.send(embed = em)
 
@@ -70,7 +70,7 @@ async def unban(ctx):
 
   em = discord.Embed(title = "unban", description = "sbanna un utente, ma attenzione! Se non sei in grado di eseguire questo comando, il bot deve essere più alto del ruolo che l'utente ha o non ha i permessi per bannare e cacciare gli utenti (si consiglia di metterlo in cima)")
 
-  em.add_field(name = "**Syntax**", value = "jj.unban")
+  em.add_field(name = "**Syntax**", value = "j.unban")
 
   await ctx.send(embed = em)
 
@@ -79,7 +79,7 @@ async def kick(ctx):
 
   em = discord.Embed(title = "kick", description = "kicka un utente che hai menzionato! Se non sei in grado di eseguire questo comando, devi essere autorizzato a kickare gli utenti!")
 
-  em.add_field(name = "**Syntax**", value = "jj.kick <@mention user>")
+  em.add_field(name = "**Syntax**", value = "j.kick <@mention user>")
 
   await ctx.send(embed = em)
 
@@ -88,7 +88,7 @@ async def ban(ctx):
 
   em = discord.Embed(title = "ban", description = "Bannare per sempre un utente che hai citato! Se non sei in grado di eseguire questo comando, devi avere l'autorizzazione per bannare gli utenti!")
 
-  em.add_field(name = "**Syntax**", value = "jj.ban <@mention user>")
+  em.add_field(name = "**Syntax**", value = "j.ban <@mention user>")
 
   await ctx.send(embed = em)
 
@@ -97,9 +97,9 @@ async def tictactoe(ctx):
 
   em = discord.Embed(title = "tictactoe", description = "Se vuoi giocare a TRIS devi menzionare 2 giocatori")
 
-  em.add_field(name = "**1 comando:**", value = "jj.tictactoe [@player 1] [@player 2]")
+  em.add_field(name = "**1 comando:**", value = "j.tictactoe [@player 1] [@player 2]")
 
-  em.add_field(name = "**2 comando:**", value = "jj.usa <1 to 9>")
+  em.add_field(name = "**2 comando:**", value = "j.usa <1 to 9>")
 
   await ctx.send(embed = em)
 
