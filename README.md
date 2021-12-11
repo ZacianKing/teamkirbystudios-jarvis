@@ -1,5 +1,7 @@
 Tutorial: come far funzionare il bot e durarlo per 24/7 (o quasi...)
 
+Ci sono 17 passi per seguire:
+
 1. Andare sul sito Replit https://replit.com/
 2. Vedrete un tasto "Create", cliccate il bottone "+" e vi appare un popup.
 3. Inserite Python su "Template" e inserite il nome che volete dare al bot su "Title" e infine cliccate il bottone blu "+ Create Repl".
