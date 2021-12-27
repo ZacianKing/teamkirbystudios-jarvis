@@ -2,12 +2,12 @@ Tutorial: come far funzionare il bot e durarlo per 24/7 (o quasi...)
 
 Ci sono 17 passi per seguire:
 
-1. Andare sul sito Replit https://replit.com/
+1. Andate sul sito Replit https://replit.com/
 2. Vedrete un tasto "Create", cliccate il bottone "+" e vi appare un popup.
 3. Inserite Python su "Template" e inserite il nome che volete dare al bot su "Title" e infine cliccate il bottone blu "+ Create Repl".
 4. Vi appare main.py in alto a sinistra, sotto "Files".
 5. Prendete main.py che avete appena scaricato e trascinatelo sopra, stessa cosa con keep_alive.py
-6. Alla fine di main.py c'è scritto "XXX", dovete inserire il TOKEN del vostro bot su Discor Developer Portal - Applications https://discord.com/developers/applications
+6. Alla fine di main.py c'è scritto "XXX", dovete inserire il TOKEN del vostro bot su Discord Developer Portal - Applications https://discord.com/developers/applications
 7. Appena messo il token, digitate il tasto Ctrl+Enter (sul sito Replit, nel vostro main.py)
 8. Appena la console vi dirà che è online, sopra c'è scritto che il bot è "vivo" quindi siamo a buon punto.
 9. Aprite il sito UptimeRobot https://uptimerobot.com
