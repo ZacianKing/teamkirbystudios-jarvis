@@ -42,7 +42,7 @@ async def language(ctx):
 
   em = discord.Embed(title = "language", description = "Quale programma sono stato usato?")
 
-  em.add_field(name = "**Syntax**", value = "j..language")
+  em.add_field(name = "**Syntax**", value = "j.language")
 
   await ctx.send(embed = em)
 
